@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code9 Static Website on S3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to ${name} Static Website on S3</h1>
+    </header>
+
+    <main>
+        <p>This is a sample static website hosted on an Amazon S3 bucket.</p>
+        <p>This site is hosted in bucket called ${s3_bucket_name}</p>
+        <p>This site is part of terraform workspace called ${workspace}</p>
+        <button onclick="sayHello()">Click me!</button>
+    </main>
+
+    <footer>
+        <p>Created by ${name}</p>
+    </footer>
+</body>
+</html>
