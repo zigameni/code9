@@ -1,0 +1,7 @@
+s3_sites = {
+  site1  = {},
+  site2  = {},
+  othersite1 = {},
+  somesite1 = {}
+
+}
