@@ -3,5 +3,8 @@ s3_sites = {
   site2  = {},
   othersite1 = {},
   somesite1 = {}
-
 }
+
+s3_sites_count = [
+  test1, test2,test3
+]
