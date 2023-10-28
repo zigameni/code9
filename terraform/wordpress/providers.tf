@@ -11,6 +11,7 @@ terraform {
       version = "~> 5.6.2"
     }
   }
+  
   backend "s3" {
     bucket = "code9-docker-gazi"
     key    = "terraform/wordpress"
